@@ -1,0 +1,56 @@
+{
+    "identityPoolName": "testAuthIdentityPool",
+    "allowUnauthenticatedIdentities": false,
+    "resourceNameTruncated": "swiftue9a3313a",
+    "userPoolName": "SwiftUIAWS",
+    "autoVerifiedAttributes": [
+        "email"
+    ],
+    "mfaConfiguration": "OFF",
+    "mfaTypes": [
+        "SMS Text Message"
+    ],
+    "smsAuthenticationMessage": "Your authentication code is {####}",
+    "smsVerificationMessage": "Your verification code is {####}",
+    "emailVerificationSubject": "Subject {####}",
+    "emailVerificationMessage": "Body {####}",
+    "defaultPasswordPolicy": false,
+    "passwordPolicyMinLength": 6,
+    "passwordPolicyCharacters": [
+        "Requires Lowercase",
+        "Requires Numbers"
+    ],
+    "requiredAttributes": [
+        "preferred_username"
+    ],
+    "userpoolClientGenerateSecret": false,
+    "userpoolClientRefreshTokenValidity": 30,
+    "userpoolClientWriteAttributes": [],
+    "userpoolClientReadAttributes": [],
+    "userpoolClientLambdaRole": "SwiftUe9a3313a_userpoolclient_lambda_role",
+    "userpoolClientSetAttributes": false,
+    "sharedId": "e9a3313a",
+    "resourceName": "SwiftUIAWS",
+    "authSelections": "identityPoolAndUserPool",
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    },
+    "unauthRoleArn": {
+        "Fn::GetAtt": [
+            "UnauthRole",
+            "Arn"
+        ]
+    },
+    "serviceName": "Cognito",
+    "useDefault": "manual",
+    "userPoolGroups": false,
+    "userPoolGroupList": [],
+    "adminQueries": false,
+    "thirdPartyAuth": false,
+    "authProviders": [],
+    "usernameCaseSensitive": false,
+    "dependsOn": []
+}

@@ -1,0 +1,28 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-swiftuiaws-dev-172145-authRole",
+      "UnauthRoleArn": "arn:aws:iam::380259326804:role/amplify-swiftuiaws-dev-172145-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::380259326804:role/amplify-swiftuiaws-dev-172145-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-swiftuiaws-dev-172145-deployment",
+      "UnauthRoleName": "amplify-swiftuiaws-dev-172145-unauthRole",
+      "StackName": "amplify-swiftuiaws-dev-172145",
+      "StackId": "arn:aws:cloudformation:eu-central-1:380259326804:stack/amplify-swiftuiaws-dev-172145/1cc83020-ab5a-11eb-81bc-0a1a8241524e",
+      "AmplifyAppId": "d3u6xhylod4otw"
+    },
+    "categories": {
+      "function": {
+        "swiftuiaws4bcbda5cPreSignup": {
+          "DOMAINDENYLIST": "",
+          "deploymentBucketName": "amplify-swiftuiaws-dev-172145-deployment",
+          "s3Key": "amplify-builds/swiftuiaws4bcbda5cPreSignup-74706a5544507369534c-build.zip"
+        }
+      },
+      "auth": {
+        "swiftuiaws4bcbda5c": {},
+        "SwiftUIAWS": {}
+      }
+    }
+  }
+}
